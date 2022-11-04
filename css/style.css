@@ -35,3 +35,41 @@ footer{
     width: 100vw;
     background-color: #282828;
 }
+
+
+
+/* Media Query */
+
+
+/* MD */
+@media (min-width: 768px) { 
+    
+ }
+
+
+
+/* S */
+@media (min-width: 576px) { 
+    
+ }
+
+
+
+
+/* XS */
+@media (max-width: 576px) { 
+
+    header{
+        width: 60px;
+        
+    
+    }
+    
+
+    main{
+        width: calc(100% - 60px);
+    }
+ }
+
+
+
