@@ -54,6 +54,19 @@ body{
     color:gray;
 }
 
+.upgrade button {
+    color: white;
+    background: none;
+    padding: 0 2rem;
+    height: 2.5rem;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: .8rem;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+
 
 nav {
     margin-top: .5rem;
@@ -219,6 +232,17 @@ main{
     width: 100%;
 }
 
+.album_pop{
+    /*  width: 160px; */
+     margin: .5rem;
+     width: calc(100% / 6 - 1rem);
+ }
+ .album_pop img {
+    width: 100%;
+}
+
+
+
 
 .rounded {
     display: inline-block;
@@ -253,9 +277,11 @@ footer{
         flex-wrap: wrap;
     
      }
-     .album{
+     .album,
+     .album_created,
+     .album_pop{
         width: calc(100% / 4 - 1rem);
-         margin: .5rem;
+        margin: .5rem;
      }
     
  }
@@ -271,9 +297,11 @@ footer{
         flex-wrap: wrap;
     
      }
-     .album{
+     .album,
+     .album_created,
+     .album_pop{
         width: calc(100% / 2 - 1rem);
-         margin: .5rem;
+        margin: .5rem;
      }
  }
 
@@ -288,9 +316,11 @@ footer{
     
      }
 
-     .album{
+     .album,
+     .album_created,
+     .album_pop{
         width: calc(100% / 2 - 1rem);
-         margin: .5rem;
+        margin: .5rem;
      }
     
  }
@@ -315,9 +345,11 @@ footer{
     
      }
 
-     .album{
+     .album,
+     .album_created,
+     .album_pop{
         width: calc(100% / 2 - 1rem);
-         margin: .5rem;
+        margin: .5rem;
      }
 
 
