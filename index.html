@@ -8,11 +8,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Spotify</title>
 </head>
 <body>
     <div class="wrapper flex flex_wrap">
         <header>
+            <div class="main_logo">
+                <a href="#"><img src="./img/logo.svg" alt=""></a>
+            </div>
+            <nav class="flex">
+                <ul class="flex flex_col">
+                    <li class="hover_gray"><img class="home_icon" src="./img/home.svg" alt=""><span class="">Home</span></li>
+                    <li><img class="search_icon hover_gray" src="./img/search.svg" alt=""><span class="">Cerca</span></li>
+                    <li><img class="library_icon hover_gray" src="./img/libreria.svg" alt=""><span class="">La tua libreria</span></li>
+                </ul>
+            </nav>
+
+            <nav class="">
+                <p class="playlist">Playlist</p>
+                <ul class="flex flex_col">
+                    <li class=""><i class="fa-solid fa-square-plus add_icon"></i><span class="add_playlist">Crea Playlist</span></li>
+                    <li><span class="">Nome playlist</span></li>
+                    <li><span class="">Nome playlist</span></li>
+                    <li><span class="">Nome playlist</span></li>
+                    <li class="hover_gray"><span class="">Nome playlist</span></li>
+                    <li><span class="">Nome playlist</span></li>
+                    <li><span class="">Nome playlist</span></li>
+                    <li><span class="">Nome playlist</span></li>
+                </ul>
+                
+
+            </nav>
 
 
         </header>
@@ -51,41 +78,43 @@
                     <h1 class="white_text">Recently played</h1>
                 </div>
                 <div class="wrapper flex flex_row">
-                    <div class="album flex flex_col flex_center">
-                        <img src="./img/metal_lifting.jpg" alt="">
-                        <h4 class="white_text"> Heavy Metal</h4>
-                        <p class="gray_text">Subtitle</p>
-                    </div>
+                     
+                        <div class="album flex flex_col flex_center">
+                            <img src="./img/metal_lifting.jpg" alt="">
+                            <h4 class="white_text"> Heavy Metal</h4>
+                            <p class="gray_text">Subtitle</p>
+                        </div>
 
-                    <div class="album flex flex_col flex_center">
-                        <img src="./img/stranger.jpeg" alt="">
-                        <h4 class="white_text"> Heavy Metal</h4>
-                        <p class="gray_text">Subtitle</p>
-                    </div>
+                        <div class="album flex flex_col flex_center">
+                            <img src="./img/stranger.jpeg" alt="">
+                            <h4 class="white_text"> Heavy Metal</h4>
+                            <p class="gray_text">Subtitle</p>
+                        </div>
 
-                    <div class="album flex flex_col flex_center">
-                        <img src="./img/aquietplace.jpeg" alt="">
-                        <h4 class="white_text"> Heavy Metal</h4>
-                        <p class="gray_text">Subtitle</p>
-                    </div>
+                        <div class="album flex flex_col flex_center">
+                            <img src="./img/aquietplace.jpeg" alt="">
+                            <h4 class="white_text"> Heavy Metal</h4>
+                            <p class="gray_text">Subtitle</p>
+                        </div>
 
-                    <div class="album flex flex_col flex_center">
-                        <img src="./img/split.jpeg" alt="">
-                        <h4 class="white_text"> Heavy Metal</h4>
-                        <p class="gray_text">Subtitle</p>
-                    </div>
+                        <div class="album flex flex_col flex_center">
+                            <img src="./img/split.jpeg" alt="">
+                            <h4 class="white_text"> Heavy Metal</h4>
+                            <p class="gray_text">Subtitle</p>
+                        </div>
 
-                    <div class="album flex flex_col flex_center">
-                        <img src="./img/cure.jpeg" alt="">
-                        <h4 class="white_text"> Heavy Metal</h4>
-                        <p class="gray_text">Subtitle</p>
-                    </div>
+                        <div class="album flex flex_col flex_center">
+                            <img src="./img/cure.jpeg" alt="">
+                            <h4 class="white_text"> Heavy Metal</h4>
+                            <p class="gray_text">Subtitle</p>
+                        </div>
 
-                    <div class="album flex flex_col flex_center">
-                        <img src="./img/sinister.jpeg" alt="">
-                        <h4 class="white_text"> Heavy Metal</h4>
-                        <p class="gray_text">Subtitle</p>
-                    </div>
+                        <div class="album flex flex_col flex_center">
+                            <img src="./img/sinister.jpeg" alt="">
+                            <h4 class="white_text"> Heavy Metal</h4>
+                            <p class="gray_text">Subtitle</p>
+                        </div>
+                    
                 </div>
             </section>
 
@@ -95,18 +124,20 @@
                     <h1 class="white_text">Creato per John Doe</h1>
                     <p class="gray_text">Più ascolti, più accurati saranno i tuoi suggerimenti</p>
                 </div>
-                <div class="wrapper flex flex_row">
-                    <div class="album flex flex_col flex_center">
+                
+                <div class="wrapper flex flex_row ">
+                    <div class="album_created flex flex_col flex_center">
                         <img src="./img/radar.jpeg" alt="">
                         <h4 class="white_text"> Heavy Metal</h4>
                         <p class="gray_text">Subtitle</p>
                     </div>
 
-                    <div class="album flex flex_col flex_center">
+                    <div class="album_created flex flex_col flex_center">
                         <img src="./img/mixdaily.jpeg" alt="">
                         <h4 class="white_text"> Heavy Metal</h4>
                         <p class="gray_text">Subtitle</p>
                     </div>
+                </div>
             </section>
 
             <section class="pop">
