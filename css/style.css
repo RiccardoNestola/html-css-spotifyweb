@@ -186,27 +186,39 @@ nav.home_menu ul li:first-child {
 
 
 
+.overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
-div.play_icon i {
+div.overlay i {
     color: white;
-    top: calc(50% - 40px);
-    left: calc(50% - 40px);
-    opacity: 0;
     
 }
 
 
-div.play_icon i:hover {
-    opacity: 1;
-    transition: all 1s cubic-bezier(.215, .61, .355, 1);
-}
 
-.play_hover:hover {
-    opacity: .5;
+.play_hover:hover .overlay {
+    background-color: rgba(0,0,0, 0.5);
+   
 
 } 
 
+.play_hover .overlay i {
+    display: none;
+}
+
+
+.play_hover:hover .overlay i {
+    display: inline;
+}
 
 
 .hover_white:hover {
@@ -514,10 +526,7 @@ footer{
 
   @media (max-height: 680px) {
     
-    .little_nav {
-        display: none;
-
-    }
+  
 
     .playlist_menu {
         overflow: auto;
