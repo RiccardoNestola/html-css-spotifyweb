@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <title>Spotify</title>
 </head>
 <body>
@@ -17,15 +17,16 @@
             <div class="main_logo">
                 <a href="#"><img src="./img/logo.svg" alt=""></a>
             </div>
-            <nav class="flex">
+            <nav class="home_menu">
                 <ul class="flex flex_col">
-                    <li class="hover_gray"><img class="home_icon" src="./img/home.svg" alt=""><span class="">Home</span></li>
+                    <li class="hover_gray"><img class="logo_icon" src="./img/logo-small.svg" alt=""></li>
+                    <li class="hover_gray"><img class="home_icon" src="./img/home.svg" alt=""><span class="home_text">Home</span></li>
                     <li><img class="search_icon hover_gray" src="./img/search.svg" alt=""><span class="">Cerca</span></li>
                     <li><img class="library_icon hover_gray" src="./img/libreria.svg" alt=""><span class="">La tua libreria</span></li>
                 </ul>
             </nav>
 
-            <nav class="">
+            <nav class="playlist_menu">
                 <p class="playlist">Playlist</p>
                 <ul class="flex flex_col">
                     <li class=""><i class="fa-solid fa-square-plus add_icon"></i><span class="add_playlist">Crea Playlist</span></li>
@@ -36,10 +37,25 @@
                     <li><span class="">Nome playlist</span></li>
                     <li><span class="">Nome playlist</span></li>
                     <li><span class="">Nome playlist</span></li>
-                </ul>
-                
+                </ul>  
 
+                
             </nav>
+            <div class="little_nav">
+
+                <div class="download_menu">
+                    <img class="download_icon" src="./img/download.svg" alt="">
+                    <span>Installa app</span>
+                    <div class="line"></div>
+                </div>
+
+                <div class="user_menu">
+                    <img class="user_icon" src="./img/profile.svg" alt="">
+                    <span>John Doe</span>
+                </div>
+            </div>
+
+            
 
 
         </header>
