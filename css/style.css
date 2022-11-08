@@ -526,10 +526,10 @@ footer{
 
   @media (max-height: 680px) {
     
-  
-
-    .playlist_menu {
+    .list {
         overflow: auto;
-        height: 130px;
+        height: 200px;
     }
-  }
+    
+
+}
